@@ -29,7 +29,9 @@ const h2= {
 	fontWeight: 200,
 	fontSize: '1.7em',
 	background: 'rgba(0,0,0,0.7)',
-	padding: '10px'
+	padding: '10px',
+	width: '60%',
+	lineHeight: '1.4em'
 }
 
 const img = { 
