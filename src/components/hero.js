@@ -16,7 +16,7 @@ const textContainer = {
 
 const h1 = {
 	color: 'white',
-	fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system',
+	fontFamily: 'Gilda Display, ui-serif, Georgia, Cambria, Times, serif',
 	fontWeight: 200,
 	fontSize: '3em',
 	background: 'rgba(0,0,0,0.7)',
