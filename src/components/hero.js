@@ -2,22 +2,40 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 const container = {
-	position: 'relative'
+	display: 'grid'
 };
 
+const textContainer = {
+	gridArea: "1/1",
+  position: "relative",
+  placeItems: "center start",
+  display: "grid",
+	paddingLeft: '30px',
+	alignSelf: 'center'
+}
+
 const h1 = {
-	position: 'absolute',
-  top: '40%',
-  left: '15%',
-  zIndex: 1,
+	color: 'white',
+	fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system',
+	fontWeight: 200,
+	fontSize: '3em',
+	background: 'rgba(0,0,0,0.7)',
+	padding: '10px'
+}
+
+const h2= {
   color: 'white',
-  width: '70%',
-  textAlign: 'center',
+	fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system',
+	fontWeight: 200,
+	fontSize: '1.7em',
+	background: 'rgba(0,0,0,0.7)',
+	padding: '10px'
 }
 
 const img = { 
-	marginBottom: `1.45rem`, 
-	height: `100vh` 
+	gridArea: '1/1',
+	maxHeight: '100vh',
+	height: `100vh`
 }
 
 
@@ -25,15 +43,18 @@ const img = {
 const Hero = () => {
  return (
 	<div style={container}>
-		<h1 style={h1}>Welcome to our nature retreat in paradise</h1>
 		<StaticImage
 			src="../images/barn-in-winter.jpg"
-			loading="eager"
-			objectFit="cover"
+			layout="fullWidth"
 			formats={["auto", "webp", "avif"]}
-			alt="Welcome to paradise"
+			alt=""
 			style={img}
 		/>
+		<div style={textContainer}>
+			<h1 style={h1}>Dealul Cu Trei Case</h1>
+			<h2 style={h2}>Welcome to our little corner of nature in the Apuseni mountains, Romania</h2>
+
+		</div>
 	</div>
  )
 }
