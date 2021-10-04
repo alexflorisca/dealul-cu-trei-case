@@ -9,6 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Dealul Cu Trei Case | Retreat in Muntii Apuseni" />
     <Hero />
+    
   </Layout>
 )
 

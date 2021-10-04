@@ -19,9 +19,9 @@ export default function Nav() {
 				<Logo className={styles.logo} />
 			</a>
 			<ul ref={menu} className={styles.menu}>
-				<li><a className={styles.navLink} href="#">The place</a></li>
-				<li><a className={styles.navLink} href="#">The people</a></li>
-				<li><a className={styles.navLink} href="#">Contact us</a></li>
+				<li><a className={styles.navLink} href="#">The Place</a></li>
+				<li><a className={styles.navLink} href="#">The People</a></li>
+				<li><a className={styles.navLink} href="#">Contact Us</a></li>
 			</ul>
 			<div ref={hamburger} className={styles.hamburger} onClick={handleMenuClick}>
 				<span className={styles.bar}></span>

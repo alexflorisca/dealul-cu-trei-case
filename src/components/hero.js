@@ -18,8 +18,10 @@ const h1 = {
 	color: 'white',
 	fontFamily: 'Just Lovely, ui-serif, Georgia, Cambria, Times, serif',
 	fontWeight: 200,
+	textAlign: 'center',
 	fontSize: '6em',
-	padding: '10px'
+	padding: '10px',
+	marginTop: '-100px'
 }
 
 const h2= {
@@ -52,8 +54,6 @@ const Hero = () => {
 		/>
 		<div style={textContainer}>
 			<h1 style={h1}>Dealul Cu Trei Case</h1>
-			<h2 style={h2}>Welcome to our little corner of nature in the Apuseni mountains, Romania</h2>
-
 		</div>
 	</div>
  )

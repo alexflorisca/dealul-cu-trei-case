@@ -1,12 +1,8 @@
 @font-face {
 	font-family: "Just Lovely"; 
-	src: url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.eot"); 
-	src: url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.eot?#iefix") format("embedded-opentype"), 
-	url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff2") format("woff2"), 
-	url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff") format("woff"), 
-	url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.ttf") format("truetype"), 
-	url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.svg#Just Lovely") format("svg");
+	src: url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff2") format("woff2"), 
+		url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff") format("woff");
 	font-weight: 400;
   font-style: normal;
-  font-display: fallback;
+  font-display: swap;
 }
