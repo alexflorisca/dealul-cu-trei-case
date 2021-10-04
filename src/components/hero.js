@@ -8,7 +8,7 @@ const container = {
 const textContainer = {
 	gridArea: "1/1",
   position: "relative",
-  placeItems: "center start",
+  placeItems: "center center",
   display: "grid",
 	paddingLeft: '30px',
 	alignSelf: 'center'
@@ -16,19 +16,18 @@ const textContainer = {
 
 const h1 = {
 	color: 'white',
-	fontFamily: 'Gilda Display, ui-serif, Georgia, Cambria, Times, serif',
+	fontFamily: 'Just Lovely, ui-serif, Georgia, Cambria, Times, serif',
 	fontWeight: 200,
-	fontSize: '3em',
-	background: 'rgba(0,0,0,0.7)',
+	fontSize: '6em',
 	padding: '10px'
 }
 
 const h2= {
   color: 'white',
 	fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system',
-	fontWeight: 200,
+	fontWeight: 400,
 	fontSize: '1.7em',
-	background: 'rgba(0,0,0,0.7)',
+	textAlign: 'center',
 	padding: '10px',
 	width: '60%',
 	lineHeight: '1.4em'
@@ -37,9 +36,8 @@ const h2= {
 const img = { 
 	gridArea: '1/1',
 	maxHeight: '100vh',
-	height: `100vh`
+	height: `100vh`,
 }
-
 
 
 const Hero = () => {
