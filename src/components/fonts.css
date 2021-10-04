@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "Just Lovely"; 
-	src: url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff2") format("woff2"), 
-		url("//db.onlinewebfonts.com/t/6f3de16f90f0ee3fdeaf1fd4285f6378.woff") format("woff");
+	src: url("../fonts/JustLovely.woff2") format("woff2"), 
+	url("../fonts/JustLovely.woff2") format("woff");
 	font-weight: 400;
   font-style: normal;
   font-display: swap;
