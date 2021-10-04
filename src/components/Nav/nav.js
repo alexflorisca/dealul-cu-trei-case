@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import * as styles from './nav.module.css';
-import Logo from '../../../assets/d3c-logo-white.inline.svg'
+import Logo from '../../assets/d3c-logo-white.inline.svg'
 
 export default function Nav() {
 

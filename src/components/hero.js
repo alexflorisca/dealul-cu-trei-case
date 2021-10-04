@@ -51,6 +51,7 @@ const Hero = () => {
 			formats={["auto", "webp", "avif"]}
 			alt=""
 			style={img}
+			loading="eager"
 		/>
 		<div style={textContainer}>
 			<h1 style={h1}>Dealul Cu Trei Case</h1>
