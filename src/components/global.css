@@ -27,17 +27,33 @@ section {
 }
 
 .full-width {
-	margin: 60px;
+	margin: 60px auto;
+	max-width: 800px;
 }
 .full-width h2 {
 	text-align: center;
 }
 
-.image-grid {
+.image-grid-4-2 {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	align-items: center;
+	grid-gap: 1px;
+}
+
+.footer {
+	background: #2E2C2E;
+	color: #FFFFFF;
+	margin: 60px;
+}
+
+.inside {
+	margin-right: 50px;
+}
+
+.outside {
+	margin-left: 50px;
 }
 
 @media only screen and (max-width: 768px) {

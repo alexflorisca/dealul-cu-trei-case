@@ -19,9 +19,12 @@ export default function Nav() {
 				<Logo className={styles.logo} />
 			</a>
 			<ul ref={menu} className={styles.menu}>
-				<li><a className={styles.navLink} href="#">The Place</a></li>
-				<li><a className={styles.navLink} href="#">The People</a></li>
-				<li><a className={styles.navLink} href="#">Contact Us</a></li>
+				<li><a className={styles.navLink} href="#our-story">Our Story</a></li>
+				<li><a className={styles.navLink} href="#place">The Place</a></li>
+				<li><a className={styles.navLink} href="#accomodation">Accomodation</a></li>
+				<li><a className={styles.navLink} href="#travel">Travel</a></li>
+				<li><a className={styles.navLink} href="#cost">Cost</a></li>
+				<li><a className={styles.navLink} href="#contact">Contact Us</a></li>
 			</ul>
 			<div ref={hamburger} className={styles.hamburger} onClick={handleMenuClick}>
 				<span className={styles.bar}></span>
