@@ -1,23 +1,59 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import Lightbox from 'react-image-lightbox';
 import Showcase from './showcase';
 import './showcase.css';
+import 'react-image-lightbox/style.css'
 
 const ResponsiveImages = (props) => {
+	const breakpoint = 768;
 	const showcaseRef = useRef(null);
-	const images = props.children.map(image => <li className="showcase__slide" key={image.props.src}>{image}</li>);
+	const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+	const [lightboxPhotoIndex, setLightboxPhotoIndex] = useState(0);
+	const [lightboxImages, setLightboxImages] = useState([])
+	
+	const openLightbox = (event) => {
+		if(window.innerWidth > breakpoint) {
+			setIsLightboxOpen(true);
+			setLightboxPhotoIndex(event.target.closest('li').getAttribute('data-index'));
+		}
+	}
+
+	const imageSlides = props.children.map((image, index) => <li 
+		className="showcase__slide" 
+		key={index}
+		data-index={index}
+		onClick={openLightbox}>{image}</li>
+	);
 
 	useEffect(() => {
+		const images = Array.from(showcaseRef.current.querySelectorAll('picture')).map(image => image.querySelector('img').currentSrc);
+		setLightboxImages(images);
 		new Showcase(showcaseRef.current, {
-			breakpoints: [768],
+			breakpoints: [breakpoint],
 			thumbPosition: 'bottom'
 		})
-	})
+	}, [])
+
+
+	const showLightbox = () => {
+		console.log('showing lightboxopen', isLightboxOpen);
+		return isLightboxOpen && lightboxImages.length > 0 && window.innerWidth > breakpoint && <Lightbox
+			mainSrc={lightboxImages[lightboxPhotoIndex]}
+			nextSrc={lightboxImages[(lightboxPhotoIndex + 1) % lightboxImages.length]}
+			prevSrc={lightboxImages[(lightboxPhotoIndex + lightboxImages.length - 1) % lightboxImages.length]}
+			onCloseRequest={() => setIsLightboxOpen(false)}
+			onMovePrevRequest={() => setLightboxPhotoIndex((lightboxPhotoIndex + lightboxImages.length - 1) % lightboxImages.length)}
+			onMoveNextRequest={() => setLightboxPhotoIndex((lightboxPhotoIndex + lightboxImages.length + 1) % lightboxImages.length)}
+	/>
+	}
+	
 
 	return (
 		<div className="showcase" ref={showcaseRef}>
+			{showLightbox()}
 			<div className="showcase__main">
 				<ul className="showcase__content" aria-label="Image slideshow. Press left or right arrow to navigate" tabIndex="0">
-					{images}
+					{imageSlides}
 				</ul>
 				<div className="showcase__controls">
         <button type="button" aria-label="previous" className="showcase__prev">
