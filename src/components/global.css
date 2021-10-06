@@ -1,0 +1,55 @@
+h2, h3 {
+	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+}
+
+body {
+	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+	line-height: 1.55rem;
+	font-size: 1.15rem;
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+.two-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+.text {
+	margin: 40px;
+}
+
+section {
+	margin-top: 60px;
+}
+
+.full-width {
+	margin: 60px;
+}
+.full-width h2 {
+	text-align: center;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.two-col {
+		grid-template-columns: 1fr;
+	}
+
+	.image-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.full-width {
+		margin: 60px 30px;
+	}
+}

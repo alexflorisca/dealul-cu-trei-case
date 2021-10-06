@@ -24,17 +24,6 @@ const h1 = {
 	marginTop: '-100px'
 }
 
-const h2= {
-  color: 'white',
-	fontFamily: 'Inter, ui-sans-serif, system-ui, -apple-system',
-	fontWeight: 400,
-	fontSize: '1.7em',
-	textAlign: 'center',
-	padding: '10px',
-	width: '60%',
-	lineHeight: '1.4em'
-}
-
 const img = { 
 	gridArea: '1/1',
 	maxHeight: '100vh',

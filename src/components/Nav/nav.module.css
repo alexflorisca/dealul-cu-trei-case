@@ -39,10 +39,11 @@
 }
 
 .nav-link {
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 400;
 	color: #FFFFFF;
-	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+	font-weight: 400;
+	font-family: 'Lato', Times, system-ui, -apple-system;
 }
 .nav-link:hover {
 	text-decoration: underline;
@@ -50,7 +51,7 @@
 
 .logo {
 	width: auto;
-	height: 60px;
+	height: 40px;
 }
 
 @media only screen and (max-width: 768px) {

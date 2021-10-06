@@ -1,0 +1,23 @@
+h2 {
+	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+	font-size: 2.3rem;
+	line-height: 3rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	font-weight: 300;
+	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+}
+
+.welcome {
+	margin: 60px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.welcome {
+		margin: 60px 20px;
+	}
+}

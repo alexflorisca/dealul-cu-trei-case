@@ -71,7 +71,7 @@ function Seo({ description, lang, meta, title }) {
       ].concat(meta)}>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-      <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Lato:wght@100,300&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet" />
     </Helmet>  )
 }
 
