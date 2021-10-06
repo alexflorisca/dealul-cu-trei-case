@@ -43,9 +43,11 @@ section {
 }
 
 .footer {
+	text-align: center;
 	background: #2E2C2E;
 	color: #FFFFFF;
-	margin: 60px;
+	padding: 30px;
+	margin-bottom: 0;
 }
 
 .inside {
@@ -67,5 +69,9 @@ section {
 
 	.full-width {
 		margin: 60px 30px;
+	}
+
+	.outside {
+		margin-left: 0;
 	}
 }

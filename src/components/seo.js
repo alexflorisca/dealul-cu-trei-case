@@ -72,6 +72,7 @@ function Seo({ description, lang, meta, title }) {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://unpkg.com/media-showcase@1.0.0/public/showcase.min.css"></link>
     </Helmet>  )
 }
 

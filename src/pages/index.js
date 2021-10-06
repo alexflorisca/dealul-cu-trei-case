@@ -3,6 +3,7 @@ import Hero from '../components/hero'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Welcome from '../components/Welcome/welcome'
+import ResponsiveImages from "../components/ResponsiveImages/ResponsiveImages"
 import { StaticImage } from "gatsby-plugin-image"
 
 import '../components/global.css'
@@ -32,12 +33,10 @@ const IndexPage = () => (
     <section id="place" className="section full-width">
         <h2>The Place</h2>
         <p>We live on a large hill with 3 old traditional wooden houses and 3 barns (hence the name!). As most young people in theses villages have moved to the city, old and beautiful wooden houses are becoming ruins very fast, the forest is re-growing and old traditions are starting to disappear. We wanted to restore and preserve some of these buildings and traditions</p>
-        
         <p>We're currently in the process of bringing these back to life. The middle house was our first project and that's where we now call home. We've also just finished converting the barn next to it and we're excited to share this with like minded people!</p>
-
-       
       </section>
-      <section className="image-grid-4-2">
+      {/* <section className="image-grid-4-2"> */}
+      <ResponsiveImages>
         <StaticImage 
           src="../images/barn-in-winter-2.jpg"
           formats={["auto", "webp", "avif"]}
@@ -86,7 +85,8 @@ const IndexPage = () => (
           alt="Mihaela and Octavian Florisca"
           loading="lazy"
           layout="fullWidth" />
-      </section>
+      </ResponsiveImages>
+      {/* </section> */}
       <p className="full-width">There is incredible energy and beauty here, unspoilt nature and amazing people living a very traditional life. Everything beats to it's own rhythm and we try to respect and work in tandem with nature and the local culture and traditions. We capture water from the spring in the woods, buy dairy products, honey etc. from the neighbours on other hills, have fruit trees and wild flowers as much as you can see. It is so beautifully quiet and away from the craziness of the world.</p>
       <section className="two-col">
         <div>
@@ -131,7 +131,7 @@ const IndexPage = () => (
          </div>
        </div>
       </section>
-       <div className="image-grid-4-2">
+      <ResponsiveImages>
        <StaticImage 
           src="../images/barn-outside.jpg"
           formats={["auto", "webp", "avif"]}
@@ -180,7 +180,7 @@ const IndexPage = () => (
           alt="Fire by the barn"
           loading="lazy"
           layout="fullWidth" />
-     </div>
+     </ ResponsiveImages>
      <section className="full-width">
        <p>20 metres from the barn, there is wood and a fireplace for an evening chat and stargazing by the fire. This is a self catering place but we can help you with your food shopping from the nearest town - about 40 min drive - and from our neighbours (we try and source most products from locals but will do a shopping trip to town when needed). You're free to use produce from our own gardens when theseason is right, in exchange for a helping hand with gardening. Depending on the season,  there are fruits in the trees, wild berries, many types of mushrooms and much foraging to be done.</p>
       </section>
@@ -190,8 +190,9 @@ const IndexPage = () => (
       <section id="travel" className="full-width">
         <h2>Travel</h2>
         <p>Getting here is relatively simple, despite the remoteness. Nearest city is Deva (meaning God / deity in Indian religion) which is connected by train to most of the country. From Deva, there are regular busses to Brad which is the nearest town from here. From Brad, there are two mini busses daily which will drop you 900m away from our house.</p>
-Do <a href="#contact">contact us</a> for advice or help with your journey, if you need to.
-        <p>Hitchhiking is also popular in Romania and very feasible and an affordable way to move around. <strong>Nearest airports are Sibiu (recommended, 2h drive)</strong> and Cluj Napoca (3h drive) and Timisoara (3h drive). Transfer by private car is also possible and much faster than public transport, but of course more costly and more polluting. The last 900m to our place is on a relatively steep small road and requires 4x4 or it's a nice walk through a lovely forest (with a bench mid-way if one you need as rest). We can of course pick you up from the bottom of the hill as well, especially if you have luggage.</p>
+        <p>Do <a href="#contact">contact us</a> for advice or help with your journey, if you need to.</p>
+        <p>Hitchhiking is also popular in Romania and very feasible and an affordable way to move around.</p>
+        <p><strong>Nearest airports are Sibiu (recommended, 2h drive)</strong> and Cluj Napoca (3h drive) and Timisoara (3h drive). Transfer by private car is also possible and much faster than public transport, but of course more costly and more polluting. The last 900m to our place is on a relatively steep small road and requires 4x4 or it's a nice walk through a lovely forest (with a bench mid-way if one you need as rest). We can of course pick you up from the bottom of the hill as well, especially if you have luggage.</p>
       </section>
 
       {/* Reality Check */}
@@ -222,8 +223,7 @@ Do <a href="#contact">contact us</a> for advice or help with your journey, if yo
         <p>We love to meet like minded people and share this place with you. If you like the sound of it please email us or find us on <a href="https://www.instagram.com/dealulcutreicase/">Instagram</a></p>
       </section>
 
-      <section id="footer" className="footer">
-      </section>
+      <p id="footer" className="footer">Swing by and say hi, n-ui bai :)</p>
   </Layout>
 )
 
