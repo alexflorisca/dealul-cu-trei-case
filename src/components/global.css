@@ -1,4 +1,5 @@
-h2, h3 {
+h2,
+h3 {
 	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
 }
 
@@ -44,8 +45,8 @@ section {
 
 .footer {
 	text-align: center;
-	background: #2E2C2E;
-	color: #FFFFFF;
+	background: #2e2c2e;
+	color: #ffffff;
 	padding: 30px;
 	margin-bottom: 0;
 }

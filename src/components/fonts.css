@@ -1,8 +1,8 @@
 @font-face {
-	font-family: "Just Lovely"; 
-	src: url("../fonts/JustLovely.woff2") format("woff2"), 
-	url("../fonts/JustLovely.woff2") format("woff");
+	font-family: 'Just Lovely';
+	src: url('../fonts/JustLovely.woff2') format('woff2'),
+		url('../fonts/JustLovely.woff2') format('woff');
 	font-weight: 400;
-  font-style: normal;
-  font-display: block;
+	font-style: normal;
+	font-display: block;
 }

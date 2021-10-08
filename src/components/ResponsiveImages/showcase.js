@@ -1,17 +1,17 @@
 function throttle(f, t) {
 	let inThrottle;
-	return function(args) {
-		if(!inThrottle) {
+	return function (args) {
+		if (!inThrottle) {
 			f(args);
 			inThrottle = true;
-			setTimeout(() => inThrottle = false, t)
+			setTimeout(() => (inThrottle = false), t);
 		}
-	}
+	};
 }
 
 class Showcase {
 	constructor(el, options) {
-		if(!el) {
+		if (!el) {
 			console.warn('No showcase element found');
 			return;
 		}
@@ -22,7 +22,7 @@ class Showcase {
 		this.contentEl = el.querySelector('.showcase__content');
 		this.slides = el.querySelectorAll('.showcase__slide');
 		this.controls = el.querySelector('.showcase__controls');
-		if(!this.contentEl || this.slides.length === 0) {
+		if (!this.contentEl || this.slides.length === 0) {
 			console.warn('Invalid markup or no slides found');
 			return;
 		}
@@ -38,28 +38,27 @@ class Showcase {
 		this.slides[this.activeSlideIndex].classList.add('active');
 
 		this.contentEl.addEventListener('keydown', e => {
-			if(e.keyCode === 37) {
+			if (e.keyCode === 37) {
 				this.prevSlide();
 			}
-			if(e.keyCode === 39) {
+			if (e.keyCode === 39) {
 				this.nextSlide();
 			}
-		})
+		});
 		this.contentEl.addEventListener('click', this.nextSlide.bind(_this));
 		this.contentEl.addEventListener('touchstart', throttle(this.handleTouchStart.bind(_this), 250));
 		this.contentEl.addEventListener('touchmove', throttle(this.handleTouchMove.bind(_this), 250));
 		this.next = el.querySelector('.showcase__next');
 		this.prev = el.querySelector('.showcase__prev');
-		if(this.next && this.prev) {
+		if (this.next && this.prev) {
 			this.next.addEventListener('click', this.nextSlide.bind(_this));
 			this.prev.addEventListener('click', this.prevSlide.bind(_this));
 		}
-		
-		if(this.slides.length > 1) {
-			if(!window || !window.ResizeObserver) {
+
+		if (this.slides.length > 1) {
+			if (!window || !window.ResizeObserver) {
 				window.addEventListener('resize', throttle(this.onScreenResize.bind(_this), 100));
-			}
-			else {
+			} else {
 				this.addResizeObserver();
 			}
 			this.addThumbs();
@@ -70,7 +69,7 @@ class Showcase {
 		const observer = new ResizeObserver(entries => {
 			entries.forEach(entry => {
 				this.onScreenResize();
-			})
+			});
 		});
 		observer.observe(this.contentEl);
 	}
@@ -87,12 +86,12 @@ class Showcase {
 		this.thumbsEl.classList.add('showcase__thumbs--img');
 		this.controls.style.display = 'block';
 
-		if(this.thumbPos === 'right') {
+		if (this.thumbPos === 'right') {
 			this.thumbsEl.style.height = `${this.contentEl.offsetHeight}px`;
 			this.el.classList.add('showcase--thumbs-right');
 		}
 
-		if(this.thumbPos === 'left') {
+		if (this.thumbPos === 'left') {
 			this.thumbsEl.style.height = `${this.contentEl.offsetHeight}px`;
 			this.el.classList.add('showcase--thumbs-left');
 		}
@@ -102,7 +101,7 @@ class Showcase {
 		this.thumbsStyle = 'dot';
 		Array.from(this.thumbsEl.children).forEach(child => {
 			child.style.width = null;
-		})
+		});
 		this.el.classList.remove('showcase--grid');
 		this.el.classList.remove('showcase--thumbs-right');
 		this.el.classList.remove('showcase--thumbs-left');
@@ -123,14 +122,18 @@ class Showcase {
 
 	updateThumbStyles() {
 		// dotted thumbnails on small screens
-		if(this.breakpoints[0] && this.screenWidth < this.breakpoints[0]) {
+		if (this.breakpoints[0] && this.screenWidth < this.breakpoints[0]) {
 			this.setDotThumbs();
 			return;
 		}
 		// image thumbnails on medium screens
-		else if(this.breakpoints[1] && this.screenWidth > this.breakpoints[0] && this.screenWidth < this.breakpoints[1]) {
+		else if (
+			this.breakpoints[1] &&
+			this.screenWidth > this.breakpoints[0] &&
+			this.screenWidth < this.breakpoints[1]
+		) {
 			this.setImageThumbs();
-		} 
+		}
 		// no thumbnails on big screens
 		else {
 			this.setNoThumbs();
@@ -139,31 +142,31 @@ class Showcase {
 
 	addThumbs() {
 		this.slides.forEach((slide, index) => {
-			const b = document.createElement('button')
-			b.setAttribute('data-slide-index', index)
-			b.setAttribute('aria-label', `Image ${index+1}`)
+			const b = document.createElement('button');
+			b.setAttribute('data-slide-index', index);
+			b.setAttribute('aria-label', `Image ${index + 1}`);
 			b.innerHTML = `<img src="${slide.firstElementChild.getAttribute('src')}">`;
 
-			if(index === this.activeSlideIndex) {
+			if (index === this.activeSlideIndex) {
 				b.classList.add('active');
 			}
 			b.addEventListener('click', () => {
 				this.changeActiveSlide(index);
-			})
+			});
 			this.thumbs[index] = b;
 			this.thumbsEl.appendChild(b);
-		})
+		});
 		this.updateThumbStyles();
 	}
 
 	changeActiveSlide(nextSlide) {
 		this.slides[this.activeSlideIndex].classList.remove('active');
 		this.slides[nextSlide].classList.add('active');
-		if(this.thumbs.length > 0) {
+		if (this.thumbs.length > 0) {
 			this.thumbs[this.activeSlideIndex].classList.remove('active');
 			this.thumbs[nextSlide].classList.add('active');
 			// Scroll thumbnail images into view
-			if(this.thumbsStyle === 'img') {
+			if (this.thumbsStyle === 'img') {
 				this.thumbs[nextSlide].scrollIntoView({ block: 'nearest' });
 			}
 		}
@@ -172,12 +175,14 @@ class Showcase {
 	}
 
 	nextSlide() {
-		const nextSlide = (this.activeSlideIndex === this.slides.length-1) ? 0 : this.activeSlideIndex+1;
+		const nextSlide =
+			this.activeSlideIndex === this.slides.length - 1 ? 0 : this.activeSlideIndex + 1;
 		this.changeActiveSlide(nextSlide);
 	}
 
 	prevSlide() {
-		const nextSlide = (this.activeSlideIndex === 0) ? this.slides.length-1 : this.activeSlideIndex-1;
+		const nextSlide =
+			this.activeSlideIndex === 0 ? this.slides.length - 1 : this.activeSlideIndex - 1;
 		this.changeActiveSlide(nextSlide);
 	}
 
@@ -187,21 +192,21 @@ class Showcase {
 	}
 
 	handleTouchMove(e) {
-		if(!this.xDown || !this.yDown) return;
-		
+		if (!this.xDown || !this.yDown) return;
+
 		const xUp = e.touches[0].clientX;
 		const yUp = e.touches[0].clientY;
 
 		const xDiff = this.xDown - xUp;
 		const yDiff = this.yDown - yUp;
-		if( Math.abs(xDiff) > Math.abs(yDiff) ) {
+		if (Math.abs(xDiff) > Math.abs(yDiff)) {
 			// Left swipe
-			if(xDiff > 0) {
+			if (xDiff > 0) {
 				this.nextSlide();
 			}
 			// Right swipe
 			else {
-				this.prevSlide()
+				this.prevSlide();
 			}
 		}
 
