@@ -58,7 +58,7 @@
 	.navbar {
 		justify-content: space-between;
 		position: fixed;
-		background: #399c47;
+		background: rgba(4, 167, 119, 1);
 	}
 	.menu {
 		position: fixed;

@@ -1,13 +1,19 @@
+body,
 h2,
-h3 {
+h3,
+p {
 	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+	color: #2e2c2e;
 }
 
-body {
-	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
-	line-height: 1.55rem;
+p {
+	line-height: 1.7rem;
 	font-size: 1.15rem;
 	font-weight: 300;
+}
+
+h2 {
+	margin-bottom: 30px;
 }
 
 h3 {
@@ -20,7 +26,7 @@ h3 {
 	align-items: center;
 }
 .text {
-	margin: 40px;
+	margin: 30px;
 }
 
 section {
@@ -68,11 +74,25 @@ section {
 		grid-template-columns: 1fr;
 	}
 
+	section {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
 	.full-width {
-		margin: 60px 30px;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	.outside {
 		margin-left: 0;
+	}
+
+	.zero-tm-mobile {
+		margin-top: 0 !important;
+	}
+
+	.text h2 {
+		text-align: center;
 	}
 }
