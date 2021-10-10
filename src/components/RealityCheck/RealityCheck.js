@@ -4,9 +4,9 @@ const RealityCheck = () => (
 	<section className="full-width">
 		<h2>Reality Check</h2>
 		<p>
-			As with everything - despite being quite idilicidyllic - it is no perfect place and not
-			suitable for everyone. Here are a few things that might be useful in your decision to visit
-			'Dealul cu trei case' or not.
+			As with everything - despite being quite idyllic - it is no perfect place and not suitable for
+			everyone. Here are a few things that might be useful in your decision to visit 'Dealul cu trei
+			case' or not.
 		</p>
 		<h3>It's wild!</h3>
 		<p>

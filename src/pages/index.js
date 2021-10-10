@@ -8,6 +8,7 @@ import Accomodation from '../components/Accomodation/Accomodation';
 import Travel from '../components/Travel/Travel';
 import RealityCheck from '../components/RealityCheck/RealityCheck';
 import OurStory from '../components/OurStory/OurStory';
+import Contact from '../components/Contact/Contact';
 
 import '../components/global.css';
 
@@ -30,17 +31,10 @@ const IndexPage = () => (
 			</p>
 		</section>
 
-		<section id="contact" className="full-width">
-			<h2>Contact Us</h2>
-			<p>
-				We love to meet like minded people and share this place with you. If you like the sound of
-				it please email us or find us on{' '}
-				<a href="https://www.instagram.com/dealulcutreicase/">Instagram</a>
-			</p>
-		</section>
+		<Contact />
 
 		<p id="footer" className="footer">
-			Swing by and say hi, n-ui bai :)
+			Swing by and say hi, nu-i bai
 		</p>
 	</Layout>
 );

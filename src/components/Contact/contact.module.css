@@ -1,0 +1,14 @@
+.contact-row {
+	margin-bottom: 2px;
+}
+
+.contact-row a {
+	display: flex;
+	align-items: center;
+	color: #137547;
+}
+
+.contactIcon {
+	margin-right: 5px;
+	fill: #137547;
+}

@@ -23,56 +23,56 @@ const Place = () => (
 			<StaticImage
 				src="../images/barn-in-winter-2.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/barn-in-winter-3.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/view-in-summer.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="View in the summer"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/sunset.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Sunset"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/dog-house-winter.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Dog house in winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/barn-view-through-window.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/fire.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Fire"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
 				src="../images/culita-cu-view.jpg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Mihaela and Octavian Florisca"
+				alt="Our neighbour on top of the hill"
 				loading="lazy"
 				layout="fullWidth"
 			/>
@@ -80,18 +80,18 @@ const Place = () => (
 		{/* </section> */}
 		<p className="full-width">
 			There is incredible energy and beauty here, unspoilt nature and amazing people living a very
-			traditional life. Everything beats to it's own rhythm and we try to respect and work in tandem
+			traditional life. Everything beats to its own rhythm and we try to respect and work in tandem
 			with nature and the local culture and traditions. We capture water from the spring in the
-			woods, buy dairy products, honey etc. from the neighbours on other hills, have fruit trees and
-			wild flowers as much as you can see. It is so beautifully quiet and away from the craziness of
-			the world.
+			woods, buy dairy products, honey etc. from the neighbours and we have fruit trees and wild
+			flowers as much as you can see. It is so beautifully quiet and away from the craziness of the
+			world.
 		</p>
 		<section className="two-col">
 			<div>
 				<StaticImage
-					src="../images/quiet.jpg"
+					src="../images/la-capite.jpg"
 					formats={['auto', 'webp', 'avif']}
-					alt="Mihaela and Octavian Florisca"
+					alt="Working with the neighbours making hay bells"
 					loading="lazy"
 					layout="fullWidth"
 				/>
@@ -100,7 +100,7 @@ const Place = () => (
 				<h3>Is it for you?</h3>
 				<p>
 					Dealul Cu Trei Case is a magical place for people that like quietness and nature, a great
-					place for reflection and introspection. There are not TVs, limited phone signal and not
+					place for reflection and introspection. There are no TVs, limited phone signal and not
 					really a place for party goers, sorry! This is a remote place and people still live
 					traditionally, making the hay, picking fruits, making jams and pies, managing small home
 					farms and gardens. Hopefully this gives you a flavour of the atmopshere around here to see

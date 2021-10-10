@@ -99,9 +99,9 @@ const Accomodation = () => (
 				the fire. This is a self catering place but we can help you with your food shopping from the
 				nearest town - about 40 min drive - and from our neighbours (we try and source most products
 				from locals but will do a shopping trip to town when needed). You're free to use produce
-				from our own gardens when theseason is right, in exchange for a helping hand with gardening.
-				Depending on the season, there are fruits in the trees, wild berries, many types of
-				mushrooms and much foraging to be done.
+				from our own gardens when the season is right, in exchange for a helping hand with
+				gardening. Depending on the season, there are fruits in the trees, wild berries, many types
+				of mushrooms and much foraging to be done.
 			</p>
 		</section>
 	</>
