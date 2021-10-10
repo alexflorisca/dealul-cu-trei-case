@@ -21,56 +21,56 @@ const Place = () => (
 		</section>
 		<ResponsiveImages>
 			<StaticImage
-				src="../images/barn-in-winter-2.jpg"
+				src="../../images/barn-in-winter-2.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-in-winter-3.jpg"
+				src="../../images/barn-in-winter-3.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/view-in-summer.jpg"
+				src="../../images/view-in-summer.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="View in the summer"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/sunset.jpg"
+				src="../../images/sunset.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Sunset"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/dog-house-winter.jpg"
+				src="../../images/dog-house-winter.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Dog house in winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-view-through-window.jpg"
+				src="../../images/barn-view-through-window.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/fire.jpg"
+				src="../../images/fire.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Fire"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/culita-cu-view.jpg"
+				src="../../images/culita-cu-view.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Our neighbour on top of the hill"
 				loading="lazy"
@@ -89,7 +89,7 @@ const Place = () => (
 		<section className="two-col">
 			<div>
 				<StaticImage
-					src="../images/la-capite.jpg"
+					src="../../images/neighbours-haybells.jpg"
 					formats={['auto', 'webp', 'avif']}
 					alt="Working with the neighbours making hay bells"
 					loading="lazy"

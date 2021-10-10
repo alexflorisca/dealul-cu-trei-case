@@ -5,7 +5,7 @@ const OurStory = () => (
 	<div id="our-story" className="two-col">
 		<div className="image">
 			<StaticImage
-				src="../images/mihaela-and-octavian.jpeg"
+				src="../../images/mihaela-and-octavian.jpeg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Mihaela and Octavian Florisca"
 				loading="lazy"

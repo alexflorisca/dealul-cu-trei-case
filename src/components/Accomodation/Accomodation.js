@@ -37,56 +37,56 @@ const Accomodation = () => (
 		</section>
 		<ResponsiveImages>
 			<StaticImage
-				src="../images/barn-outside.jpg"
+				src="../../images/barn-outside.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Outside of the barn"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-in-winter-wide.jpg"
+				src="../../images/barn-in-winter-wide.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Outside of barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-living-room.jpg"
+				src="../../images/barn-living-room.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-living-room-3.jpg"
+				src="../../images/barn-living-room-3.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-living-room-4.jpg"
+				src="../../images/barn-living-room-4.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-kitchen.jpg"
+				src="../../images/barn-kitchen.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn kitchen"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/barn-bathroom.jpg"
+				src="../../images/barn-bathroom.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn bathroom"
 				loading="lazy"
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../images/fire-wide.jpg"
+				src="../../images/fire-wide.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Fire by the barn"
 				loading="lazy"
