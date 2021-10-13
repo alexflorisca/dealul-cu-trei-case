@@ -13,6 +13,38 @@ const Place = () => (
 				starting to disappear. We wanted to restore and preserve some of these buildings and
 				traditions
 			</p>
+		</section>
+		<ResponsiveImages>
+			<StaticImage
+				src="../../images/house-1.jpeg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Our converted house"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/house-2.jpeg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Our converted house"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/house-terrace.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Terrace of our converted house"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/house-babu.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Babu protecting our house"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+		</ResponsiveImages>
+		<section className="full-width section zero-tp-mobile">
 			<p>
 				We're currently in the process of bringing these back to life. The middle house was our
 				first project and that's where we now call home. We've also just finished converting the
@@ -21,23 +53,23 @@ const Place = () => (
 		</section>
 		<ResponsiveImages>
 			<StaticImage
-				src="../../images/barn-in-winter-2.jpg"
-				formats={['auto', 'webp', 'avif']}
-				alt="Barn in the winter"
-				loading="lazy"
-				layout="fullWidth"
-			/>
-			<StaticImage
-				src="../../images/barn-in-winter-3.jpg"
-				formats={['auto', 'webp', 'avif']}
-				alt="Barn in the winter"
-				loading="lazy"
-				layout="fullWidth"
-			/>
-			<StaticImage
 				src="../../images/view-in-summer.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="View in the summer"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/summer-view.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="View in the summer"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/terrace-sunset.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Terrace at sunset"
 				loading="lazy"
 				layout="fullWidth"
 			/>
@@ -56,13 +88,6 @@ const Place = () => (
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../../images/barn-view-through-window.jpg"
-				formats={['auto', 'webp', 'avif']}
-				alt="View from the barn"
-				loading="lazy"
-				layout="fullWidth"
-			/>
-			<StaticImage
 				src="../../images/fire.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Fire"
@@ -70,9 +95,72 @@ const Place = () => (
 				layout="fullWidth"
 			/>
 			<StaticImage
+				src="../../images/fireside-chats.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Chats by the fire"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/fireside-miki.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Guarding the fire"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
 				src="../../images/culita-cu-view.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Our neighbour on top of the hill"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/haybell-house.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Neighbouring haybel house"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/barn-in-winter-3.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="House in the winter"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/snow-dogs.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Dogs in the snow"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/snow-first-house.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Snowy sign Dealul Cu Trei Case"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/snowy-whiteout.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Winter wonderland"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/snowy-babu.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Snowy Babu, our first dog"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/snowy-flags.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
 			/>
@@ -89,7 +177,7 @@ const Place = () => (
 		<section className="two-col">
 			<div>
 				<StaticImage
-					src="../../images/neighbours-haybells.jpg"
+					src="../../images/la-claie.jpg"
 					formats={['auto', 'webp', 'avif']}
 					alt="Working with the neighbours making hay bells"
 					loading="lazy"
@@ -103,8 +191,8 @@ const Place = () => (
 					place for reflection and introspection. There are no TVs, limited phone signal and not
 					really a place for party goers, sorry! This is a remote place and people still live
 					traditionally, making the hay, picking fruits, making jams and pies, managing small home
-					farms and gardens. Hopefully this gives you a flavour of the atmopshere around here to see
-					if it's for you.
+					farms and gardens. It's mesmerising to see how they live this busy but slow paced life,
+					how they help each other and find freedom and happiness in simplicity.
 				</p>
 			</div>
 		</section>

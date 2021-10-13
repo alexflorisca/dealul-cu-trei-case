@@ -51,6 +51,13 @@ const Accomodation = () => (
 				layout="fullWidth"
 			/>
 			<StaticImage
+				src="../../images/barn-view-through-window.jpg"
+				formats={['auto', 'webp', 'avif']}
+				alt="View from the barn"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
 				src="../../images/barn-living-room.jpg"
 				formats={['auto', 'webp', 'avif']}
 				alt="Barn living room"
@@ -86,9 +93,30 @@ const Accomodation = () => (
 				layout="fullWidth"
 			/>
 			<StaticImage
-				src="../../images/fire-wide.jpg"
+				src="../../images/barn-table-outside.jpeg"
 				formats={['auto', 'webp', 'avif']}
-				alt="Fire by the barn"
+				alt="View from the barn"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/barn-table-outside-2.jpeg"
+				formats={['auto', 'webp', 'avif']}
+				alt="View from the barn"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/outdoor-shower-3.jpeg"
+				formats={['auto', 'webp', 'avif']}
+				alt="View from the barn"
+				loading="lazy"
+				layout="fullWidth"
+			/>
+			<StaticImage
+				src="../../images/outdoor-toilet.jpeg"
+				formats={['auto', 'webp', 'avif']}
+				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
 			/>
