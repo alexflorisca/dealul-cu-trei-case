@@ -9,6 +9,7 @@ import Travel from '../components/Travel/Travel';
 import RealityCheck from '../components/RealityCheck/RealityCheck';
 import OurStory from '../components/OurStory/OurStory';
 import Contact from '../components/Contact/Contact';
+import Activities from '../components/Activities/Activities';
 
 import '../components/global.css';
 
@@ -19,6 +20,7 @@ const IndexPage = () => (
 		<Welcome />
 		<OurStory />
 		<Place />
+		<Activities />
 		<Accomodation />
 		<Travel />
 		<RealityCheck />

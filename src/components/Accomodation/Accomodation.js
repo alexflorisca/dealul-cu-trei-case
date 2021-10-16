@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Accomodation = () => (
 	<>
-		<section id="accomodation" className="full-width zero-tm-mobile">
+		<section id="accomodation" className="full-width">
 			<h2>Accomodation and Facilities</h2>
 			<p>
 				For now, we can accomodate you in the newly restored and converted barn, a magical space

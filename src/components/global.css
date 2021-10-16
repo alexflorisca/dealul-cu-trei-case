@@ -30,6 +30,12 @@ h3 {
 	align-items: center;
 }
 
+.two-thirds {
+	display: grid;
+	grid-template-columns: 66.6% 33.3%;
+	align-items: center;
+}
+
 .two-col.spaced {
 	margin-bottom: 50px;
 }
