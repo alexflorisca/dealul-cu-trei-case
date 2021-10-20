@@ -25,12 +25,12 @@ const Travel = () => (
 			Hitchhiking is also popular in Romania and very feasible and an affordable way to move around.
 		</p>
 		<p>
-			<strong>Nearest airports are Sibiu (recommended, 2h drive)</strong> and Cluj Napoca (3h drive)
-			and Timisoara (3h drive). Transfer by private car is also possible and much faster than public
-			transport, but of course more costly and more poluting. The last 900m to our place is on a
-			relatively steep small road and requires 4x4 or it's a nice walk through a lovely forest (with
-			a bench mid-way if you need a rest). We can of course pick you up from the bottom of the hill
-			as well, especially if you have luggage.
+			<strong>Nearest airports are Sibiu (recommended, 2h drive)</strong>, Timisoara (2.5h drive)
+			and Cluj Napoca (3h drive). Transfer by private car is also possible and much faster than
+			public transport, but of course more costly and more poluting. The last 900m to our place is
+			on a relatively steep small road and requires 4x4 or it's a nice walk through a lovely forest
+			(with a bench mid-way if you need a rest). We can of course pick you up from the bottom of the
+			hill as well, especially if you have luggage.
 		</p>
 	</section>
 );

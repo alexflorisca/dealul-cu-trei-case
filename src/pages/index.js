@@ -31,6 +31,12 @@ const IndexPage = () => (
 				eco-project and to be able to organise free camps and workshops for children and people that
 				can't afford it.
 			</p>
+			<p>
+				We also need as much help as we can with various jobs like renovation work, gardening,
+				cooking, wood splitting, making beautiful things, etc. So if you have a particular skill or
+				talent and would like to help us as a volunteer, please get in touch! We can provide
+				accomodation and food in exchange for your help.
+			</p>
 		</section>
 
 		<Contact />

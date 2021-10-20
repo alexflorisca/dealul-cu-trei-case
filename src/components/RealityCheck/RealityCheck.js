@@ -50,9 +50,9 @@ const RealityCheck = () => (
 		</div>
 		<div className="two-col spaced">
 			<StaticImage
-				src="../../images/wild.jpg"
+				src="../../images/road.jpeg"
 				formats={['auto', 'webp', 'avif']}
-				alt="It's wild"
+				alt="The road is steep and muddy"
 				loading="lazy"
 				layout="fullWidth"
 				className="two-col-right"
@@ -85,9 +85,9 @@ const RealityCheck = () => (
 		</div>
 		<div className="two-col spaced">
 			<StaticImage
-				src="../../images/wild.jpg"
+				src="../../images/spring.jpeg"
 				formats={['auto', 'webp', 'avif']}
-				alt="It's wild"
+				alt="Water from the spring"
 				loading="lazy"
 				layout="fullWidth"
 				className="two-col-right"

@@ -28,6 +28,11 @@ export default function Nav() {
 					</a>
 				</li>
 				<li>
+					<a className={styles.navLink} href="#activities">
+						Activities
+					</a>
+				</li>
+				<li>
 					<a className={styles.navLink} href="#accomodation">
 						Accomodation
 					</a>
