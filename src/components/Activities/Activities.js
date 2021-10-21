@@ -4,7 +4,7 @@ import ResponsiveImages from '../ResponsiveImages/ResponsiveImages';
 
 const Activities = () => (
 	<>
-		<div className="zero-tm-mobile full-width">
+		<div className="zero-tm-mobile full-width" id="activities">
 			<h2>Activities</h2>
 			<p>
 				The nearest town, connected by bus, is about 40min away if you want to explore an old gold

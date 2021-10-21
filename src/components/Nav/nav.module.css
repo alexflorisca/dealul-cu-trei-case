@@ -54,7 +54,7 @@
 	height: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 890px) {
 	.navbar {
 		justify-content: space-between;
 		position: fixed;
@@ -82,7 +82,7 @@
 	}
 
 	.menu > li {
-		margin: 2.5rem 0;
+		margin: 2rem 0;
 	}
 
 	.hamburger {
