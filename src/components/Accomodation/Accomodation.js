@@ -42,6 +42,7 @@ const Accomodation = () => (
 				alt="Outside of the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-in-winter-wide.jpg"
@@ -49,6 +50,7 @@ const Accomodation = () => (
 				alt="Outside of barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-view-through-window.jpg"
@@ -56,6 +58,7 @@ const Accomodation = () => (
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-living-room.jpg"
@@ -63,6 +66,7 @@ const Accomodation = () => (
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-living-room-3.jpg"
@@ -70,6 +74,7 @@ const Accomodation = () => (
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-living-room-4.jpg"
@@ -77,6 +82,7 @@ const Accomodation = () => (
 				alt="Barn living room"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-kitchen.jpg"
@@ -84,6 +90,7 @@ const Accomodation = () => (
 				alt="Barn kitchen"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-bathroom.jpg"
@@ -91,6 +98,7 @@ const Accomodation = () => (
 				alt="Barn bathroom"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-table-outside.jpeg"
@@ -98,6 +106,7 @@ const Accomodation = () => (
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-table-outside-2.jpeg"
@@ -105,6 +114,7 @@ const Accomodation = () => (
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/outdoor-shower-3.jpeg"
@@ -112,6 +122,7 @@ const Accomodation = () => (
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/outdoor-toilet.jpeg"
@@ -119,6 +130,7 @@ const Accomodation = () => (
 				alt="View from the barn"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 		</ResponsiveImages>
 		<section className="full-width">
