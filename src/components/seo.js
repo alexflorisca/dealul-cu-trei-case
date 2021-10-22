@@ -76,6 +76,11 @@ function Seo({ description, lang, meta, title }) {
 				href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
 				rel="stylesheet"
 			/>
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-43ND5HD0CF"></script>
+			<script>
+				window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
+				gtag('js', new Date()); gtag('config', 'G-43ND5HD0CF');
+			</script>
 		</Helmet>
 	);
 }
