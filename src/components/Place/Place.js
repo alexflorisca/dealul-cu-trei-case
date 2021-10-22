@@ -21,6 +21,7 @@ const Place = () => (
 				alt="Our converted house"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/house-2.jpeg"
@@ -28,6 +29,7 @@ const Place = () => (
 				alt="Our converted house"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/house-terrace.jpg"
@@ -35,6 +37,7 @@ const Place = () => (
 				alt="Terrace of our converted house"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/house-babu.jpg"
@@ -42,6 +45,7 @@ const Place = () => (
 				alt="Babu protecting our house"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 		</ResponsiveImages>
 		<section className="full-width section zero-tp-mobile">
@@ -58,6 +62,7 @@ const Place = () => (
 				alt="View in the summer"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/summer-view.jpg"
@@ -65,6 +70,7 @@ const Place = () => (
 				alt="View in the summer"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/terrace-sunset.jpg"
@@ -72,6 +78,7 @@ const Place = () => (
 				alt="Terrace at sunset"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/sunset.jpg"
@@ -79,6 +86,7 @@ const Place = () => (
 				alt="Sunset"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/dog-house-winter.jpg"
@@ -86,6 +94,7 @@ const Place = () => (
 				alt="Dog house in winter"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/fire.jpg"
@@ -93,6 +102,7 @@ const Place = () => (
 				alt="Fire"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/fireside-chats.jpg"
@@ -100,6 +110,7 @@ const Place = () => (
 				alt="Chats by the fire"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/fireside-miki.jpg"
@@ -107,6 +118,7 @@ const Place = () => (
 				alt="Guarding the fire"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/culita-cu-view.jpg"
@@ -114,6 +126,7 @@ const Place = () => (
 				alt="Our neighbour on top of the hill"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/haybell-house.jpg"
@@ -121,6 +134,7 @@ const Place = () => (
 				alt="Neighbouring haybel house"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/barn-in-winter-3.jpg"
@@ -128,6 +142,7 @@ const Place = () => (
 				alt="House in the winter"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/snow-dogs.jpg"
@@ -135,6 +150,7 @@ const Place = () => (
 				alt="Dogs in the snow"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/snow-first-house.jpg"
@@ -142,6 +158,7 @@ const Place = () => (
 				alt="Snowy sign Dealul Cu Trei Case"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/snowy-whiteout.jpg"
@@ -149,6 +166,7 @@ const Place = () => (
 				alt="Winter wonderland"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/snowy-babu.jpg"
@@ -156,6 +174,7 @@ const Place = () => (
 				alt="Snowy Babu, our first dog"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 			<StaticImage
 				src="../../images/snowy-flags.jpg"
@@ -163,6 +182,7 @@ const Place = () => (
 				alt="Barn in the winter"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 			/>
 		</ResponsiveImages>
 		{/* </section> */}

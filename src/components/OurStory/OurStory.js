@@ -12,6 +12,7 @@ const OurStory = () => (
 					alt="Mihaela and Octavian Florisca"
 					loading="lazy"
 					layout="fullWidth"
+					placeholder="blurred"
 				/>
 			</div>
 			<div className="text">

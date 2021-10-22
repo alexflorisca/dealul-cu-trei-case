@@ -16,6 +16,7 @@ const RealityCheck = () => (
 				alt="It's wild"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-right"
 			/>
 			<div className="two-col-left">
@@ -38,6 +39,7 @@ const RealityCheck = () => (
 				alt="Lot's of pets"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-left"
 			/>
 			<div className="two-col-right">
@@ -55,6 +57,7 @@ const RealityCheck = () => (
 				alt="The road is steep and muddy"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-right"
 			/>
 			<div className="two-col-left">
@@ -72,6 +75,7 @@ const RealityCheck = () => (
 				alt="It's hilly"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-left"
 			/>
 			<div className="two-col-right">
@@ -90,6 +94,7 @@ const RealityCheck = () => (
 				alt="Water from the spring"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-right"
 			/>
 			<div className="two-col-left">
@@ -108,6 +113,7 @@ const RealityCheck = () => (
 				alt="Harmony with nature"
 				loading="lazy"
 				layout="fullWidth"
+				placeholder="blurred"
 				className="two-col-left"
 			/>
 			<div className="two-col-right">
