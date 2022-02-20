@@ -10,6 +10,7 @@ import RealityCheck from '../components/RealityCheck/RealityCheck';
 import OurStory from '../components/OurStory/OurStory';
 import Contact from '../components/Contact/Contact';
 import Activities from '../components/Activities/Activities';
+import Events from '../components/Events/Events';
 
 import '../components/global.css';
 
@@ -23,6 +24,7 @@ const IndexPage = () => (
 		<Activities />
 		<Accomodation />
 		<Travel />
+		<Events />
 		<RealityCheck />
 		<section id="cost" className="full-width">
 			<h2>Cost</h2>
