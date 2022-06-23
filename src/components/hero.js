@@ -34,7 +34,7 @@ const Hero = () => {
 	return (
 		<div style={container}>
 			<StaticImage
-				src="../images/barn-in-winter.jpg"
+				src="../images/d3c-summer.jpg"
 				layout="fullWidth"
 				formats={['auto', 'webp', 'avif']}
 				alt=""

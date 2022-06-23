@@ -11,6 +11,7 @@ import OurStory from '../components/OurStory/OurStory';
 import Contact from '../components/Contact/Contact';
 import Activities from '../components/Activities/Activities';
 import Events from '../components/Events/Events';
+import { Link } from 'gatsby';
 
 import '../components/global.css';
 
@@ -29,9 +30,9 @@ const IndexPage = () => (
 		<section id="cost" className="full-width">
 			<h2>Cost</h2>
 			<p>
-				We believe in the goodness of people and accept donations, to allow us to continue this
-				eco-project and to be able to organise free camps and workshops for children and people that
-				can't afford it.
+				Please <Link to="/contact">contact us</Link> for the price as it will likely depend on a
+				number of factors (number of people, length of stay, barn or campsite, etc). We strive to
+				make this place affordable for everyone, but we also need to cover our costs of living here.
 			</p>
 			<p>
 				We also need as much help as we can with various jobs like renovation work, gardening,
