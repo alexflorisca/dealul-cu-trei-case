@@ -73,8 +73,8 @@ function Seo({ description, lang, meta, title }) {
 			<link rel="preconnect" href="https://fonts.googleapis.com" />
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
 			<link
-				href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
 				rel="stylesheet"
+				href="https://cdn.jsdelivr.net/npm/charter-webfont@4/charter.min.css"
 			/>
 		</Helmet>
 	);

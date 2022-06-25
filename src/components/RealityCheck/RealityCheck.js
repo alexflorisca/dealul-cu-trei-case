@@ -6,8 +6,8 @@ const RealityCheck = () => (
 		<h2>Reality Check</h2>
 		<p>
 			As with everything - despite being quite idyllic - it is no perfect place and not suitable for
-			everyone. Here are a few things that might be useful in your decision to visit 'Dealul cu trei
-			case' or not.
+			everyone. Here are a few things that might be useful in your decision to visit Dealul cu trei
+			case or not.
 		</p>
 		<div className="two-col spaced">
 			<StaticImage

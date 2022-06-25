@@ -1,8 +1,7 @@
-body,
 h2,
 h3,
 p {
-	font-family: 'Lato', ui-sans-serif, system-ui, -apple-system;
+	font-family: 'Charter', ui-sans-serif, system-ui, -apple-system;
 	color: #2e2c2e;
 }
 
@@ -13,7 +12,8 @@ a {
 p {
 	line-height: 1.7rem;
 	font-size: 1.15rem;
-	font-weight: 300;
+	letter-spacing: -0.054px;
+	font-weight: 400;
 }
 
 h2 {
@@ -22,6 +22,7 @@ h2 {
 
 h3 {
 	font-weight: 400;
+	margin-bottom: 0.8em;
 }
 
 .two-col {
@@ -62,7 +63,8 @@ section {
 	margin: 60px auto;
 	max-width: 800px;
 }
-.full-width h2 {
+.full-width > h2,
+.full-width > h3 {
 	text-align: center;
 }
 
