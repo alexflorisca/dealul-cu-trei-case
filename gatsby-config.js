@@ -6,6 +6,7 @@ module.exports = {
 		siteUrl: `https://dealulcutreicase.ro/`,
 	},
 	plugins: [
+		`gatsby-plugin-netlify`,
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-image`,
 		{
