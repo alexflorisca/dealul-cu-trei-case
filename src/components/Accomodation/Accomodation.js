@@ -7,7 +7,7 @@ const Accomodation = () => (
 		<section id="accomodation" className="full-width">
 			<h2>Accomodation and Facilities</h2>
 			<section id="barn" className="full-width">
-				<h3>The Barn</h3>
+				<h3>Barn #1</h3>
 				<p>
 					For now, we can accomodate you in the newly restored and converted barn, a magical space
 					with lovely views of the surrounding mountains and hills. The barn is ideal for 2-3
@@ -145,6 +145,296 @@ const Accomodation = () => (
 						trees, wild berries, many types of mushrooms and much foraging to be done.
 					</p>
 				</section>
+			</section>
+			<section id="lower barn" className="full-width">
+				<h3>Barn #2</h3>
+				<p>
+					This is a renovated old wooden bar, a magical place in nature, secluded and with great
+					views of the surrounding mountains! Perfect for families to experience simple, happy
+					living into nature, or friends looking for a quiet place to connect and stargaze around
+					the fire. It's a nature retreat, to experience peace, quiet and joy! You can have
+					breakfast on the terrace and maybe even a bit of yoga. Sit by the fire in the evening, for
+					laughter and chats with family and friends! The barn has large windows so you can see the
+					stars at night
+				</p>
+				<div className="two-col" style={{ alignItems: 'flex-start' }}>
+					<div className="inside">
+						<h4>Inside</h4>
+						<ul>
+							<li>Small kitchen space</li>
+							<li>Induction hob</li>
+							<li>Small fridge</li>
+							<li>Dining table</li>
+							<li>Comfy large chair for the rainy day</li>
+							<li>Two single and two double beds</li>
+						</ul>
+					</div>
+					<div className="outside">
+						<h4>Outside</h4>
+						<ul>
+							<li>Toilet, shower, washing area</li>
+							<li>Terrace</li>
+						</ul>
+					</div>
+				</div>
+				<ResponsiveImages>
+					<StaticImage
+						src="../../images/lower_barn_outside_1.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_3.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_4.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_6.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_7.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_8.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_outside_9.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_entrance.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_terrace.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_terrace_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_terrace_3.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_terrace_4.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_view.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_view_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_3.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_4.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_5.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_6.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_7.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_main_room_8.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_beds.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_beds_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_swing.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_trees.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_washing_area.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_washing_area_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_washing_area_3.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_shower.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_shower_2.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+					<StaticImage
+						src="../../images/lower_barn_toilet.jpg"
+						formats={['auto', 'webp', 'avif']}
+						alt="Outside of the barn"
+						loading="lazy"
+						layout="fullWidth"
+						placeholder="blurred"
+					/>
+				</ResponsiveImages>
 			</section>
 			<section id="campsite" className="full-width">
 				<h3>The Campsite</h3>
