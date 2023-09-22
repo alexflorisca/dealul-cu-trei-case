@@ -9,10 +9,10 @@ const Accomodation = () => (
 			<section id="barn" className="full-width">
 				<h3>Barn #1</h3>
 				<p>
-					For now, we can accomodate you in the newly restored and converted barn, a magical space
-					with lovely views of the surrounding mountains and hills. The barn is ideal for 2-3
-					people, but can accomodate a maximum of 5, with a double, a single and a sofa bed (access
-					to sleeping space requires climbing stairs or a ladder).{' '}
+					W can accomodate you in the newly restored and converted barn, a magical space with lovely
+					views of the surrounding mountains and hills. The barn is ideal for 2-3 people, but can
+					accomodate a maximum of 5, with a double, a single and a sofa bed (access to sleeping
+					space requires climbing stairs or a ladder).{' '}
 				</p>
 				<div className="two-col" style={{ alignItems: 'flex-start' }}>
 					<div className="inside">
@@ -179,14 +179,6 @@ const Accomodation = () => (
 				</div>
 				<ResponsiveImages>
 					<StaticImage
-						src="../../images/lower_barn_outside_1.jpg"
-						formats={['auto', 'webp', 'avif']}
-						alt="Outside of the barn"
-						loading="lazy"
-						layout="fullWidth"
-						placeholder="blurred"
-					/>
-					<StaticImage
 						src="../../images/lower_barn_outside_2.jpg"
 						formats={['auto', 'webp', 'avif']}
 						alt="Outside of the barn"
@@ -235,14 +227,6 @@ const Accomodation = () => (
 						placeholder="blurred"
 					/>
 					<StaticImage
-						src="../../images/lower_barn_outside_9.jpg"
-						formats={['auto', 'webp', 'avif']}
-						alt="Outside of the barn"
-						loading="lazy"
-						layout="fullWidth"
-						placeholder="blurred"
-					/>
-					<StaticImage
 						src="../../images/lower_barn_entrance.jpg"
 						formats={['auto', 'webp', 'avif']}
 						alt="Outside of the barn"
@@ -252,14 +236,6 @@ const Accomodation = () => (
 					/>
 					<StaticImage
 						src="../../images/lower_barn_terrace.jpg"
-						formats={['auto', 'webp', 'avif']}
-						alt="Outside of the barn"
-						loading="lazy"
-						layout="fullWidth"
-						placeholder="blurred"
-					/>
-					<StaticImage
-						src="../../images/lower_barn_terrace_2.jpg"
 						formats={['auto', 'webp', 'avif']}
 						alt="Outside of the barn"
 						loading="lazy"
@@ -338,14 +314,7 @@ const Accomodation = () => (
 						layout="fullWidth"
 						placeholder="blurred"
 					/>
-					<StaticImage
-						src="../../images/lower_barn_main_room_7.jpg"
-						formats={['auto', 'webp', 'avif']}
-						alt="Outside of the barn"
-						loading="lazy"
-						layout="fullWidth"
-						placeholder="blurred"
-					/>
+
 					<StaticImage
 						src="../../images/lower_barn_main_room_8.jpg"
 						formats={['auto', 'webp', 'avif']}
